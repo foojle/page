@@ -1,0 +1,117 @@
+*{
+		margin:0px;
+		padding:0px;
+}
+body{
+		background: url("bg.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+}
+.navbar{
+		float:right;
+		list-style: none;
+		margin-top:20px;
+}
+.navbar ul li{
+		display: inline-block;
+}
+.navbar ul li a{
+		color:#ffff;
+		padding:5px 20px;
+		text-decoration: none;
+		font-size:19px;
+}
+.navbar ul li a:hover{
+		background:#ffff;
+		color: black;
+		border-radius:1.7px;
+}
+.logo{
+		float:left;
+		margin-left:7px;
+}
+h1{
+		color:white;
+}
+.cntr{
+		position:absolute;
+		margin:18% 26%;
+		text-align: center;
+		height:300px;
+		width:500px;		
+}
+.cntr h1{
+		transform:uppercase;
+}
+.cntr h1 span{
+		color:blue;
+}
+.cntr p{
+		color:#ffff;
+		font-size:19px;
+		line-height:1.9;
+}
+.cntr a{
+		text-decoration:none;
+		padding:5px 20px;
+		border:1px solid #ffff;
+		line-height:2.2;
+		color:#ffff;
+		border-radius:2px;
+}
+.cntr a:hover{
+		background:#ffff;
+		color:black;
+}
+
+/*Media Quarries */
+
+@media (max-width:800px){
+		.container{
+				width:100%;
+		}
+		.logo{
+				float:none;
+				width:90%;
+				text-align:center;
+				margin:auto;
+				margin-top:10px;
+		}
+		.navbar{
+				float:none;
+				margin-top:10px;
+				text-align:center;
+				margin-left:9.2px;
+		}
+		.navbar ul li a{
+				padding:3px 5px;
+				font-size:17px;
+		}
+		.cntr{
+				width:100%;
+				height:auto;
+				margin:108px 20px;
+		}
+		.cntr p{
+				max-width:90%;
+				margin:auto;
+				font-size:17px;
+				line-height:1.5;
+		}
+		.cntr h1 span{
+				color:red;
+		}
+		body{
+				background: url(../sidebar/bg.jpg) no-repeat;
+				background-size: cover;
+				background-position:center;
+				height:105vh;
+		}
+		.cont{
+				margin-top:17px;
+		}
+		.cntr h1{
+				font-size:40px;
+		}
+}
